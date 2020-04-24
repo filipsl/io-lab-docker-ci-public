@@ -4,7 +4,7 @@ services:
   web:
     # TODO: image, ports and redis dependency
     image:
-      filipsl/io-lab-docker-ci-public
+     - filipsl/io-lab-docker-ci-public:v1.0
     ports:
       - 5000:5000
     depends_on:
